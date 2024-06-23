@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41ec7cd-ccd7-41c4-8c76-b2c1f5f82cf4" name="Changes" comment="">
+    <list default="true" id="c41ec7cd-ccd7-41c4-8c76-b2c1f5f82cf4" name="Changes" comment="added basic functions of setting the password manager up and loading, saving, decrypt, encrypt passwords">
       <change afterPath="$PROJECT_DIR$/FileHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PasswordManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PasswordManagerApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordManagerApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordManagerApp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +108,25 @@
       <workItem from="1718470132602" duration="5735000" />
       <workItem from="1718482166283" duration="1161000" />
       <workItem from="1718544540298" duration="11306000" />
+      <workItem from="1719154938807" duration="330000" />
     </task>
+    <task id="LOCAL-00001" summary="added basic functions of setting the password manager up and loading, saving, decrypt, encrypt passwords">
+      <option name="closed" value="true" />
+      <created>1719155073148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719155073148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added basic functions of setting the password manager up and loading, saving, decrypt, encrypt passwords" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic functions of setting the password manager up and loading, saving, decrypt, encrypt passwords" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CatPasswordManager$PasswordManagerApp.coverage" NAME="PasswordManagerApp Coverage Results" MODIFIED="1718482176249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

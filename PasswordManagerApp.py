@@ -1,8 +1,5 @@
 import tkinter as tk
 import os
-import json
-from tkinter import messagebox
-from tkinter import simpledialog
 
 
 def init_ui(master):
@@ -18,16 +15,9 @@ def init_ui(master):
         label_new = tk.Label(text="Never forget your cats names now \n Enter a secure Password:", font=("Arial", 20))
         label_new.configure(background='#FFC0CB')
         entry_box = tk.Entry(width=20, font=("Arial", 20))
-        button_create = tk.Button(master, text="Create Database", font=("Arial", 20),command= lambda : createDatabase(entry_box.get()))
         label_new.pack(pady=5)
         entry_box.pack()
-        button_create.pack(pady = 10)
 
-
-def createDatabase(password):
-    data = {'password': password}  # Example data to write to JSON file
-    database = open('passwords.json', 'x')
-    json.dump(data, database)
 
 class PasswordManagerUI:
     def __init__(self, master):
